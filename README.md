@@ -36,10 +36,14 @@
 ## w3c html チェック結果
 
 - https://validator.w3.org/nu/
+- <img width="1258" alt="image" src="https://user-images.githubusercontent.com/99580997/166415245-88808f65-5264-49e7-91bc-2c03cb95a2ff.png">
+
 
 ## w3c css チェック結果
 
 - https://jigsaw.w3.org/css-validator/
+- <img width="810" alt="image" src="https://user-images.githubusercontent.com/99580997/166415284-aa4f40b8-2b92-4260-8021-afa745a19529.png">
+
 
 ## portfolio url:
 
