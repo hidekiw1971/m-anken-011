@@ -1,0 +1,33 @@
+@use "global" as *;
+.mv__img--wrap {
+  // size
+  display: inline-block;
+  min-width: rem(375);
+  width: 100%;
+  height: rem(425);
+  // decoration
+  background-color: #ff7f50;
+  // ajustment
+  position: relative;
+  @include mq(md) {
+    display: inline-block;
+    max-width: rem(1280);
+    width: 100%;
+    height: rem(370);
+  }
+  @include mq(xl) {
+  }
+}
+
+.mv__img--wrap::before {
+  content: "";
+  // size
+  display: block;
+  width: 100%;
+  padding-top: 113.335%;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
