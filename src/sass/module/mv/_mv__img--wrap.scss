@@ -10,6 +10,10 @@
   // ajustment
   position: relative;
   @include mq(md) {
+    display: inline-block;
+    max-width: rem(1280);
+    width: 100%;
+    height: rem(370);
   }
   @include mq(xl) {
   }

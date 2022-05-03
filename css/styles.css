@@ -186,6 +186,14 @@ select::-ms-expand {
   background-color: #ff7f50;
   position: relative;
 }
+@media screen and (min-width: 768px) {
+  .mv__img--wrap {
+    display: inline-block;
+    max-width: 80rem;
+    width: 100%;
+    height: 23.125rem;
+  }
+}
 .mv__img--wrap::before {
   content: "";
   display: block;
@@ -193,13 +201,21 @@ select::-ms-expand {
   padding-top: 113.335%;
 }
 .mv__img {
-  display: block;
   width: 100%;
   height: 100%;
   background-image: url(/images/sp-under-mv@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -207,6 +223,26 @@ select::-ms-expand {
 @media screen and (min-width: 768px) {
   .mv__img {
     background-image: url(/images/under-mv@2x.png);
+  }
+}
+.mv__img::before {
+  content: "お知らせ";
+  display: block;
+  width: 100%;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 30px;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
+  line-height: 1;
+  color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .mv__img::before {
+    font-size: 2.1875rem;
+    letter-spacing: 0.125rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
