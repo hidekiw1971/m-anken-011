@@ -31,7 +31,7 @@
 ## 使い方
 
 - 「copy start」から「copy end」をコピペ。
-- css: src -> module -> xxx をコピペ。
+- css: src -> module -> mv をコピペ。
 
 ## w3c html チェック結果
 
