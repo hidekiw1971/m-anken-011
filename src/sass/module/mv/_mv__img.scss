@@ -1,0 +1,22 @@
+@use "global" as *;
+.mv__img {
+  // size
+  display: block;
+  width: 100%;
+  height: 100%;
+  // decoration
+  background-image: url(/images/sp-under-mv@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  // ajustment
+  position: absolute;
+  top: 0;
+  left: 0;
+  @include mq(md) {
+    // decoration
+    background-image: url(/images/under-mv@2x.png);
+  }
+  @include mq(xl) {
+  }
+}
